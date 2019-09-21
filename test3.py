@@ -12,7 +12,7 @@ import json
 import matplotlib.pyplot as plt
 
 endpoint = 'https://maps.googleapis.com/maps/api/directions/json?'
-api_key ='AIzaSyA4KgYzBZn9FBUTrmNjTqurimTJuAH7Qzc'
+api_key =''
 origin = '40.750252,-73.991478'#'40.749832,-73.991135'
 destination = '40.750774,-74.005547'#'40.783894,-73.977615'
 

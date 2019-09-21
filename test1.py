@@ -8,7 +8,7 @@ this code returns a jason datastructure from orging to destination points
 import urllib.request
 import json
 endpoint = 'https://maps.googleapis.com/maps/api/directions/json?'
-api_key ='AIzaSyA4KgYzBZn9FBUTrmNjTqurimTJuAH7Qzc'
+api_key =''
 origin =input('Where are you?: ').replace(' ','+')
 destination = input('Where do you want to go?: ').replace(' ','+')
 nav_request = 'origin={}&destination={}&key={}'.format(origin,destination,api_key)

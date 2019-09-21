@@ -53,7 +53,7 @@ def rdp(points, epsilon):
     return results
 
 endpoint = 'https://maps.googleapis.com/maps/api/directions/json?'
-api_key ='AIzaSyA4KgYzBZn9FBUTrmNjTqurimTJuAH7Qzc'
+api_key =''
 
 index = 5
 df = pd.read_csv('200m_1.csv')
